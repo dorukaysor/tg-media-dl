@@ -1,0 +1,35 @@
+media-bot/
+├── index.ts
+├── config.ts
+├── tsconfig.json
+├── package.json
+│
+├── commands/
+│   ├── start.ts
+│   ├── owner.ts
+│   ├── nsfw.ts
+│   ├── report.ts
+│   └── mediaHandler.ts
+│
+├── models/
+│   ├── User.ts
+│   └── Media.ts
+│
+├── utils/
+│   ├── downloadMedia.ts
+│   ├── detectType.ts
+│   ├── rateLimiter.ts
+│   ├── purgeOldMedia.ts
+│   └── nsfwCheck.ts
+│
+├── admin/
+│   ├── dashboard.ts
+│   ├── logs.ts
+│   └── toggleNSFW.ts
+│
+├── services/
+│   └── m3u8Downloader.ts
+│
+└── types/
+    ├── UserTier.ts
+    └── MediaType.ts
