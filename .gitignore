@@ -6,6 +6,9 @@ dist/*
 node_modules/
 cdn_modules/
 *.log
+.env
+config.ts
+
 
 # OS generated files
 .DS_Store
